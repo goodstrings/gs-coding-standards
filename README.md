@@ -3,7 +3,7 @@
 
 This document serves as the a guide of GoodStrings Inc. Engineering Team’s codebases, covering how the codes should be formatted as well as efficiently using version control. Our goal is to ensure a consistently high-quality codebase that is easy to read and contribute to, especially for newcomers.
 
-You are not forced follow these standards. However, you are expected to at least meet the bare minimum.
+You are not forced to follow these standards. However, you are expected to at least meet the bare minimum.
 
 ---
 

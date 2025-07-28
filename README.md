@@ -161,11 +161,9 @@ if ($condition == null) {
 - You must always include a comment on class variables.
 - Refrain from commenting on a function if the function name already explains what the function is for, except for functions in `repository` interfaces.
 - `Repository` interface functions must always have a comment on what the function is for.
-- `Repository` class functions must not have any comments.
 - You must always use `@var` for variable type comments.
 - You must always use `@param` for parameter type in comments.
 - You must always use `@return` for return type in comments.
-- There must always be two whitespaces between `@param` and `data type`.
 - There must always be a short description on each `@param` comments.
 ```php
 class ClassName

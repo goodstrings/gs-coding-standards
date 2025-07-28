@@ -207,10 +207,10 @@ class ClassName
 - Use **Eloquent ORM** for database interactions.
 - Use **Form Requests** classes for validation to keep controllers clean.
 - Use relationships and scopes to simplify database queries
+- Use **database transactions** where `multiple` related database operations occur, especially during `create`, `update`, or `delete` processes across multiple tables
 - Leverage Laravel's **events, queues, and jobs** for heavy or background tasks.
 - Avoid logic in `Blade` templates; use `controllers` or view composers.
 - Use environment variables for configuration (`.env` file) for example `config('app.timezone')` instead of hardcoding
-- Use caching to improve application performance (`Cache` facade)
 
 ### Database Management
 - Use `migrations` for all database schema changes.
